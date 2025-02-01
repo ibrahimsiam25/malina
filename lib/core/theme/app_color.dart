@@ -8,7 +8,8 @@ abstract class AppColors {
   static const Color white = Color(0xFFFFFFFF);
   static const Color beauty = Color(0xFFFFDEDD);
   static const Color shadow = Color(0x5F67731A);
-
-
-
+  static const Color comingSoon1 = Color(0xFFD4E5FF);
+  static const Color comingSoon2 = Color(0xFFFFD3BA);
+  static const Color comingSoon3 = Color(0xFFFFDEDE);
+  static const Color comingSoon4 = Color(0xFFCFF2E3);
 }
