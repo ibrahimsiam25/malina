@@ -44,6 +44,12 @@ abstract class AppTextStyles {
     letterSpacing: 0.0,
     color: AppColors.black,
   );
+  static TextStyle blackS18W700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 18,
+    letterSpacing: 0.0,
+    color: AppColors.black,
+  );
   static TextStyle blackS20W700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 20,
