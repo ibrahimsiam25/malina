@@ -14,6 +14,12 @@ abstract class AppTextStyles {
     letterSpacing: 0.0,
     color: AppColors.white,
   );
+  static TextStyle blackS16W500 = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: 16,
+    letterSpacing: 0.0,
+    color: AppColors.black,
+  );
   static TextStyle blackS22W500 = TextStyle(
     fontWeight: FontWeight.w500,
     fontSize: 22,
@@ -23,6 +29,24 @@ abstract class AppTextStyles {
   static TextStyle blackS16W300 = TextStyle(
     fontWeight: FontWeight.w300,
     fontSize: 16,
+    letterSpacing: 0.0,
+    color: AppColors.black,
+  );
+  static TextStyle blackS16W400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 16,
+    letterSpacing: 0.0,
+    color: AppColors.black,
+  );
+  static TextStyle blackS16W700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 16,
+    letterSpacing: 0.0,
+    color: AppColors.black,
+  );
+  static TextStyle blackS20W700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 20,
     letterSpacing: 0.0,
     color: AppColors.black,
   );
