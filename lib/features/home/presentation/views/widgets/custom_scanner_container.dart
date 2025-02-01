@@ -30,7 +30,7 @@ class CustomScannerContainer extends StatelessWidget {
           ),
           Text(
             "Сканируй QR-код и заказывай\nпрямо в заведении",
-            style: AppTextStyles.whiteS16F500,
+            style: AppTextStyles.whiteS16W500,
           ),
           Spacer(
             flex: 5,

@@ -35,7 +35,7 @@ class CustomSearchBar extends StatelessWidget {
             child: TextField(
               decoration: InputDecoration(
                 border: InputBorder.none,
-                hintStyle: AppTextStyles.grayS16F400,
+                hintStyle: AppTextStyles.grayS16W400,
                 hintText: "Искать в Malina"
               ),
             ),
