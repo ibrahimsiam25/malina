@@ -32,10 +32,16 @@ abstract class AppTextStyles {
     letterSpacing: 0.0,
     color: AppColors.black,
   );
-    static TextStyle blackS12W400 = TextStyle(
+  static TextStyle blackS12W400 = TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: 12,
     letterSpacing: 0.0,
     color: AppColors.black,
+  );
+  static TextStyle whiteS18W400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 18,
+    letterSpacing: 0.0,
+    color: AppColors.white,
   );
 }

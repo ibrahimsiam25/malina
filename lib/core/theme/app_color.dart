@@ -12,4 +12,5 @@ abstract class AppColors {
   static const Color comingSoon2 = Color(0xFFFFD3BA);
   static const Color comingSoon3 = Color(0xFFFFDEDE);
   static const Color comingSoon4 = Color(0xFFCFF2E3);
+  static const Color ligtGray = Color(0xFF777777);
 }
