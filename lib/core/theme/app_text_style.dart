@@ -9,5 +9,10 @@ abstract class AppTextStyles {
     letterSpacing: 0.0,
     color: AppColors.gray,
   );
-  
+    static TextStyle whiteS16F500 = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: 16,
+    letterSpacing: 0.0,
+    color: AppColors.white,
+  );
 }
