@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:malina/bottom_nav_bar.dart';
 import 'package:malina/features/cart/presentation/views/cart_view.dart';
 import 'package:malina/features/home/presentation/views/home_view.dart';
 
@@ -9,11 +10,12 @@ abstract class AppRouter {
   static const kHomeView = '/homeView';
   static const kScannerView = '/ScannerView';
   static const kCartView = '/cartView';
+  static const kBottomNavBarController = '/bottomNavBarController';
 
   static final router = GoRouter(
     routes: [
       GoRoute(
-        path: "/0",
+        path: "/",
         builder: (context, state) => SplashView(),
       ),
       GoRoute(
@@ -25,8 +27,12 @@ abstract class AppRouter {
         builder: (context, state) => ScannerView(),
       ),
       GoRoute(
-        path: "/",
+        path: kCartView,
         builder: (context, state) => CartView(),
+      ),
+      GoRoute(
+        path: kBottomNavBarController,
+        builder: (context, state) => BottomNavBarController(),
       ),
     ],
   );

@@ -30,7 +30,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
       Duration(milliseconds: 3000),
       () {
         // ignore: use_build_context_synchronously
-        GoRouter.of(context).go(AppRouter.kHomeView);
+        GoRouter.of(context).go(AppRouter.kBottomNavBarController);
       },
     );
   }
